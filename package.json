@@ -9,9 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@auth/prisma-adapter": "^2.10.0",
     "@hookform/resolvers": "^5.2.1",
     "@prisma/client": "^6.15.0",
+=======
+    "@hookform/resolvers": "^5.2.1",
+>>>>>>> e2ec2f644d538822c65cf5d61c11ea2cb26cb473
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-alert-dialog": "^1.1.15",
     "@radix-ui/react-aspect-ratio": "^1.1.7",
@@ -45,11 +49,16 @@
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.542.0",
+<<<<<<< HEAD
     "mongodb": "^6.19.0",
     "next": "15.5.2",
     "next-auth": "^5.0.0-beta.29",
     "next-themes": "^0.4.6",
     "prisma": "^6.15.0",
+=======
+    "next": "15.5.2",
+    "next-themes": "^0.4.6",
+>>>>>>> e2ec2f644d538822c65cf5d61c11ea2cb26cb473
     "react": "19.1.0",
     "react-day-picker": "^9.9.0",
     "react-dom": "19.1.0",

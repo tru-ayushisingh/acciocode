@@ -15,6 +15,7 @@ datasource db {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 enum UserRole {
   ADMIN
   USER
@@ -23,11 +24,14 @@ enum UserRole {
 
 =======
 >>>>>>> e2ec2f644d538822c65cf5d61c11ea2cb26cb473
+=======
+>>>>>>> e2ec2f644d538822c65cf5d61c11ea2cb26cb473
 model User {
   id    String @id @default(cuid()) @map("_id")
   email String @unique
   name  String?
   age   Int
+<<<<<<< HEAD
 <<<<<<< HEAD
   image String?
   accounts Account[]
@@ -59,6 +63,8 @@ model Account {
  
   @@unique([provider, providerAccountId])
   @@index([userId])
+=======
+>>>>>>> e2ec2f644d538822c65cf5d61c11ea2cb26cb473
 =======
 >>>>>>> e2ec2f644d538822c65cf5d61c11ea2cb26cb473
 }
